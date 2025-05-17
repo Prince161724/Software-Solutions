@@ -1,0 +1,44 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .hero-section {
+    background-color: #007bff;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40; /* Dark background color */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  }
+
+/* Main content boxes styling */
+.container .row .col-md-4 {
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect */
+  .container .row .col-md-4:hover {
+    transform: scale(1.05); /* Zoom in effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-color: #0056b3; /* Darker border color on hover */
+  }
